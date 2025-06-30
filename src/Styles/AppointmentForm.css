@@ -1,0 +1,144 @@
+/* Overall Section */
+.order-form-section {
+    min-height: 100vh;
+    background: linear-gradient(to right, #FFE5EC, #FDE2E4); 
+    padding: 40px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+.legal-siteTitle {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #9D2553;
+    font-family: 'Dancing Script', cursive; 
+    text-shadow: 2px 2px #f8cfd5;
+    margin-bottom: 24px;
+}
+
+.legal-siteTitle a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.legal-siteSign {
+    color: #F48FB1;
+    font-size: 52px;
+    font-weight: 800;
+}
+
+/* Container */
+.form-container {
+    max-width: 700px;
+    margin: auto;
+    padding: 32px;
+    background: #FFF0F5;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+/* Title */
+.form-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #9D2553;
+    text-align: center;
+}
+
+
+/* Form Fields */
+.form-content label {
+    font-size: 20px;
+    color: #4D194D;
+    display: block;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.form-content label::before {
+    content: "*";
+    color: red;
+    margin-right: 4px;
+}
+
+.form-content label :is(input, select) {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #F8BBD0;
+    border-radius: 8px;
+    background-color: #FFE5EC;
+    font-size: 16px;
+    color: #333;
+    font-family: 'Rubik', sans-serif;
+    outline: none;
+}
+
+.form-content label :is(input, select):focus {
+    border-color: #F48FB1;
+    background-color: #fff;
+}
+
+/* Button */
+.text-order-btn {
+    background-color: #F48FB1;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    font-weight: 600;
+}
+
+.text-order-btn:hover {
+    background-color: #EC407A;
+}
+
+/* Messages */
+.success-message {
+    color: #2D6A4F;
+    font-size: 18px;
+    margin-top: 12px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.error-message {
+    color: #D90429;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+/* Footer */
+.legal-footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+    .form-container {
+        padding: 24px;
+    }
+
+    .form-title {
+        font-size: 22px;
+    }
+
+    .form-content label {
+        font-size: 16px;
+    }
+
+    .text-order-btn {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
