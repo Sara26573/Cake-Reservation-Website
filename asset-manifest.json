@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.40b75b75.css",
-    "main.js": "/static/js/main.8df6a82e.js",
-    "static/media/cakeHeader.png": "/static/media/cakeHeader.ca579d20084039393bb2.png",
-    "static/media/bakery.jpg": "/static/media/bakery.8acf67e702df5c0212c3.jpg",
-    "static/media/baker1.jpg": "/static/media/baker1.2ec514d619a52e0e1ec1.jpg",
-    "static/media/logo2.png": "/static/media/logo2.9413337765873dd67bb6.png",
-    "static/media/baker2.jpg": "/static/media/baker2.970a13c1cb4be3d13d44.jpg",
-    "static/media/logo.jpg": "/static/media/logo.7491f283d76b3ba7d81f.jpg",
-    "static/media/baker4.jpg": "/static/media/baker4.79f3f02dfab6c549d146.jpg",
-    "static/media/baker3.jpg": "/static/media/baker3.0ea3ee24ea30318d9caa.jpg",
-    "index.html": "/index.html",
-    "main.40b75b75.css.map": "/static/css/main.40b75b75.css.map",
-    "main.8df6a82e.js.map": "/static/js/main.8df6a82e.js.map"
+    "main.css": "/Cake-Reservation-Website/static/css/main.40b75b75.css",
+    "main.js": "/Cake-Reservation-Website/static/js/main.2584404c.js",
+    "static/media/cakeHeader.png": "/Cake-Reservation-Website/static/media/cakeHeader.ca579d20084039393bb2.png",
+    "static/media/bakery.jpg": "/Cake-Reservation-Website/static/media/bakery.8acf67e702df5c0212c3.jpg",
+    "static/media/baker1.jpg": "/Cake-Reservation-Website/static/media/baker1.2ec514d619a52e0e1ec1.jpg",
+    "static/media/logo2.png": "/Cake-Reservation-Website/static/media/logo2.9413337765873dd67bb6.png",
+    "static/media/baker2.jpg": "/Cake-Reservation-Website/static/media/baker2.970a13c1cb4be3d13d44.jpg",
+    "static/media/logo.jpg": "/Cake-Reservation-Website/static/media/logo.7491f283d76b3ba7d81f.jpg",
+    "static/media/baker4.jpg": "/Cake-Reservation-Website/static/media/baker4.79f3f02dfab6c549d146.jpg",
+    "static/media/baker3.jpg": "/Cake-Reservation-Website/static/media/baker3.0ea3ee24ea30318d9caa.jpg",
+    "index.html": "/Cake-Reservation-Website/index.html",
+    "main.40b75b75.css.map": "/Cake-Reservation-Website/static/css/main.40b75b75.css.map",
+    "main.2584404c.js.map": "/Cake-Reservation-Website/static/js/main.2584404c.js.map"
   },
   "entrypoints": [
     "static/css/main.40b75b75.css",
-    "static/js/main.8df6a82e.js"
+    "static/js/main.2584404c.js"
   ]
 }
